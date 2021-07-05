@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToRead List</title>
+	<link rel="stylesheet" type="text/css" href="./main.39afc03c.css">
+<script src="./main.39afc03c.js"></script></head>
+<body>
+<main class="main">
+		<div class="leftBlock">
+		<nav class="leftBlock__search">
+			<div class="leftBlock__search-content">
+				<input type="text" name="q" id="searchInput" class="leftBlock__search-input">
+				<button id="searchButton" class="leftBlock__search-button">Go!</button>
+			</div>
+		</nav>
+		<div class="leftBlock__list" id="list">
+		</div>
+		<div class="leftBlock__pages">
+			<div class="leftBlock__pages-counter">
+				<p class="leftBlock__pages-found">
+					Found: 
+				<span id="countFound"></span> 
+				</p>
+				<p class="leftBlock__pages-start">
+					Start: 
+					<span id="countStart"></span>
+				</p>
+				<p class="leftBlock__pages-size">
+					Page size: 
+				<span id="countSize"></span>
+				</p>
+				</div>
+			<nav class="leftBlock__pages-buttons">
+				<a class="leftBlock__pages-prev" id="prev">
+					Prev results
+				</a>
+				<a class="leftBlock__pages-next" id="next">
+					Next results
+				</a>
+			</nav>
+		</div>
+	</div>
+	<div class="middleBlock">
+		<article class="middleBlock__info">
+			<p class="middleBlock__info-title" id="infoTitle">
+			</p>
+			<p class="middleBlock__info-subtitle" id="infoSubtitle">
+			</p>
+			<p class="middleBlock__info-lang">
+				Languages available:
+				<span id="infoLang">lang</span>
+			</p>
+			<p class="middleBlock__info-fullTextAvaliable">
+				Full text available:
+				<span id="infoFullText">fullText</span>
+			</p>
+			<p class="middleBlock__info-firstPublishYear">
+				First publish year:
+				<span id="infoFirstPublish">firstpublist</span>
+			</p>
+			<p class="middleBlock__info-yearsPublished">
+				Years published:
+				<span id="infoYears">years</span>
+			</p>
+		</article>
+		<a class="middleBlock-button" id="pushButton">Add book to Read List</a>
+	</div>
+	<div class="rightBlock">
+		<div class="rightBlock__head">
+			<p class="rightBlock__head-title">
+				To read list...
+			</p>
+			<p class="rightBlock__head-info">
+				<span id="readCountAll">0</span> books, <span id="readCountRead">0</span> read
+			</p>
+		</div>
+		<div class="rightBlock-list" id="readList">
+		</div>
+	</div>
+</main>
+<script type="text/javascript" src="./main.fb6bbcaf.js"></script>
+</body>
+</html>

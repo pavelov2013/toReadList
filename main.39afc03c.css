@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+.middleBlock {
+  display: flex;
+  margin-left: 37px;
+  margin-right: 32px;
+  margin-top: 29px;
+  flex: 1;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  width: 43.3%;
+  word-wrap: break-word;
+  height: auto;
+  overflow-y: scroll;
+  visibility: hidden;
+}
+.middleBlock__info * {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+.middleBlock__info-title {
+  font-size: 36px;
+  margin: 0;
+}
+.middleBlock__info-subtitle {
+  margin-top: 13px;
+  color: #ababab;
+}
+.middleBlock__info-lang {
+  margin-top: 37px;
+}
+
+.middleBlock::-webkit-scrollbar {
+  width: 0;
+}
+
+.middleBlock-button {
+  margin-top: 61px;
+  text-decoration: none;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.rightBlock {
+  display: flex;
+  flex-direction: column;
+  width: 26.6%;
+  min-width: 300px;
+  font-family: "Roboto";
+  font-weight: 400;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 0;
+}
+.rightBlock__head {
+  background-color: #C4C4C4;
+  padding-top: 21px;
+  padding-bottom: 13px;
+  padding-left: 24px;
+}
+.rightBlock__head-title {
+  font-size: 36px;
+  margin: 0;
+}
+.rightBlock__head-info {
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.rightBlock-list {
+  height: auto;
+  overflow-y: scroll;
+}
+.rightBlock-list__item {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding-left: 23px;
+  padding-bottom: 17px;
+  padding-top: 24.4px;
+  min-height: 175px;
+}
+.rightBlock-list__item * {
+  margin: 0;
+  padding: auto;
+}
+.rightBlock-list__item-title {
+  font-size: 24px;
+}
+.rightBlock-list__item-subtitle {
+  color: #ababab;
+  font-size: 18px;
+}
+.rightBlock-list__item-author {
+  margin-top: 2.6px;
+  font-size: 24px;
+}
+.rightBlock-list__item-buttons {
+  font-size: 18px;
+  margin-top: 44px;
+}
+.rightBlock-list__item-remove {
+  margin-left: 26px;
+}
+
+.rightBlock-list::-webkit-scrollbar {
+  width: 0;
+}
+
+.mark {
+  min-height: 0;
+}
+
+.mark a {
+  visibility: hidden;
+}
+
+.mark * {
+  color: green;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.main a {
+  color: blue;
+  cursor: pointer;
+}
+
+.leftBlock {
+  display: flex;
+  flex-direction: column;
+  width: 30.1%;
+  min-width: 300px;
+  justify-content: space-between;
+}
+.leftBlock__search {
+  display: flex;
+  background-color: #CBCBCB;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-top: 0;
+  flex: 1 1 auto;
+}
+.leftBlock__search-content {
+  height: 39px;
+  padding: 0;
+  margin: 30px;
+}
+.leftBlock__search-input {
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 24px;
+  width: 57%;
+}
+.leftBlock__search-button {
+  height: 100%;
+  font-size: 24px;
+  background-color: #3F50B5;
+  color: #FFFFFF;
+  border: none;
+  width: 24%;
+  margin-left: 19px;
+  cursor: pointer;
+}
+.leftBlock__list {
+  height: auto;
+  overflow-y: scroll;
+  min-height: 78vh;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.leftBlock__list::-webkit-scrollbar {
+  width: 0;
+}
+.leftBlock__item {
+  border: 1px solid black;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-right: 27px;
+  min-height: 125px;
+}
+.leftBlock__item-title {
+  font-size: 24px;
+  cursor: pointer;
+}
+.leftBlock__item-subtitle {
+  font-size: 18px;
+}
+.leftBlock__pages {
+  height: 57px;
+  background-color: #CBCBCB;
+  box-sizing: border-box;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 14px;
+}
+.leftBlock__pages-counter {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 24px;
+  max-width: 232px;
+  visibility: hidden;
+}
+.leftBlock__pages-buttons {
+  margin-left: 24px;
+  display: flex;
+  visibility: hidden;
+}
+
+#next {
+  margin-left: 18px;
+}
+
+.active {
+  background-color: #EEEEEE;
+}
+
+.active .leftBlock__item-title {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.visible {
+  visibility: visible;
+}
+
+/*# sourceMappingURL=/main.39afc03c.css.map */
